@@ -9,8 +9,8 @@ public class Main {
         System.out.println("Enter your name:");
         String name = input.nextLine();
         
-        String[] questions = {};
-        String[] answers = {};
+        String[] questions = {"Considered the father of computing", "Represents the automatic processing of information", "Considered the father of the computer"};
+        String[] answers = {"Alan Turing", "Computing", "Charles Babbage"};
 
         int hits = 0;
         int mistakes = 0;
