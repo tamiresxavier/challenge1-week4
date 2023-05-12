@@ -5,6 +5,7 @@ public class Emoticons {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
+        
         System.out.println("Enter the message:");
         String message = input.nextLine();
 
@@ -26,7 +27,6 @@ public class Emoticons {
             System.out.println("neutral");
         }else{
             System.out.println("upset");
-        }
-        
+        }      
     }
 }
